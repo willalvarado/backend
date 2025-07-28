@@ -12,6 +12,6 @@ const pool = new Pool({
 
 pool.connect()
   .then(() => console.log('🟢 Conectado a PostgreSQL'))
-  .catch(err => console.error('🔴 Error al conectar a PostgreSQL', err));
+  .catch(err => console.error('🔴 Error al conectar a SUPABASE', err));
 
 module.exports = pool;
